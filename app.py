@@ -58,7 +58,7 @@ app.layout = html.Div(children=[
             id='example-graph3',
             figure={
                 'data': [
-                    {'x': [1, 2, 3], 'y': [2, 5, 4], 'type': 'bar', 'name': 'SF'},
+                    {'x': [1, 2, 3], 'y': [2, 5, 4], 'type': 'line', 'name': 'SF'},
                     {'x': [1, 2, 3], 'y': [5, 2, 6], 'type': 'bar', 'name': u'Montréal'},
                 ],
                 'layout': {
