@@ -20,8 +20,8 @@ app.layout = html.Div(children=[
             id='example-graph',
             figure={
                 'data': [
-                    {'x': [1, 2, 3], 'y': [4, 1, 2], 'type': 'bar', 'name': 'SF'},
-                    {'x': [1, 2, 3], 'y': [2, 4, 5], 'type': 'bar', 'name': u'Montréal'},
+                    {'x': [1, 2, 3], 'y': [1, 2, 3], 'type': 'bar', 'name': 'SF'},
+                    {'x': [1, 2, 3], 'y': [3, 2, 1], 'type': 'bar', 'name': u'Montréal'},
                 ],
                 'layout': {
                     'title': 'Dash Data Visualization'
@@ -39,7 +39,7 @@ app.layout = html.Div(children=[
             id='example-graph2',
             figure={
                 'data': [
-                    {'x': [1, 2, 3], 'y': [2,4, 1], 'type': 'bar', 'name': 'SF'},
+                    {'x': [1, 2, 3], 'y': [2,4, 6], 'type': 'bar', 'name': 'SF'},
                     {'x': [1, 2, 3], 'y': [4, 1, 3], 'type': 'bar', 'name': u'Montréal'},
                 ],
                 'layout': {
@@ -58,7 +58,7 @@ app.layout = html.Div(children=[
             id='example-graph3',
             figure={
                 'data': [
-                    {'x': [1, 2, 3], 'y': [2, 5, 4], 'type': 'bar', 'name': 'SF'},
+                    {'x': [1, 2, 3], 'y': [3, 6, 9], 'type': 'line', 'name': 'SF'},
                     {'x': [1, 2, 3], 'y': [5, 2, 6], 'type': 'bar', 'name': u'Montréal'},
                 ],
                 'layout': {
